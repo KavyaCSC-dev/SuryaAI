@@ -1,0 +1,61 @@
+/* styles.css */
+body {
+    background: linear-gradient(45deg, #ff00ff, #00ffff, #ffff00, #ff00ff);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    color: #fff;
+    font-family: Impact, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5em;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    background-color: #ff1493; /* Deep pink */
+    color: #fff;
+    border: 3px solid #fff;
+    padding: 20px 40px;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff69b4; /* Hot pink */
+    border-color: #ff69b4;
+    transform: scale(1.1);
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.button-container button {
+    margin: 0 20px;
+}

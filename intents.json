@@ -1,0 +1,877 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hey :-)",
+                "Hello, thanks for visiting",
+                "Hi there, what can I do for you?",
+                "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": [
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ]
+        },
+        {
+            "tag": "intro",
+            "patterns": [
+                "Who are you",
+                "what are you",
+                "which are you",
+                "Give Me Your Intro",
+                "Introduce yourself"
+            ],
+            "responses": [
+                "I am an Surya AI designed to provide information and assistance. You can ask me questions about various topics, and I'll do my best to help you."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thank's a lot!",
+                "You make Good Jokes"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure",
+                "Glad to hear",
+                "Thanks Its my pleasure"
+            ]
+        },
+        {
+            "tag": "items",
+            "patterns": [
+                "Which items do you have?",
+                "What kinds of items are there?",
+                "What do you sell?",
+                "What You have"
+            ],
+            "responses": [
+                "We sell Earphones and Chargers."
+            ]
+        },
+        {
+            "tag": "payments",
+            "patterns": [
+                "Do you take credit cards?",
+                "Do you accept Mastercard?",
+                "Can I pay with Paypal?",
+                "Are you cash only?"
+            ],
+            "responses": [
+                "We accept VISA, Mastercard, and Paypal.",
+                "We accept most major credit cards and Paypal."
+            ]
+        },
+        {
+            "tag": "aadhar_procces",
+            "patterns": [
+                "How long does Aadhar take to come?",
+                "How long does it take to get Aadhar?",
+                "When do I get my Aadhar?"
+            ],
+            "responses": [
+                "Aadhar usually arrives in 4-7 days.",
+                "Shipping takes 2-4 days."
+            ]
+        },
+        {
+            "tag": "funny",
+            "patterns": [
+                "Tell me a joke!",
+                "Tell me something funny!",
+                "Do you know a joke?",
+                "ok tell me a joke",
+                "fine tell me joke",
+                "yes tell Me a joke",
+                "Let make me smile",
+                "make me smile",
+                "make comedy",
+                "ok say another joke",
+                "Make Anything to Make me smile",
+                "Tell Something Make Me Smile",
+                "Make Me To laugh",
+                "iam bored tell me anything",
+                "i am Bored Tell me anything"
+            ],
+            "responses": [
+                "I used to play piano by ear, but now I use my hands.",
+                "Why was the math book sad? Because it had too many problems.",
+                "Why did the tomato turn red? Because it saw the salad dressing!",
+                "I'm reading a book on the history of glue. I just can't seem to put it down!",
+                "What do you call fake spaghetti? An impasta!",
+                "Why don't skeletons go to scary movies? They don't have the guts!",
+                "Why did the golfer bring two pairs of pants? In case he got a hole in one!",
+                "I'm trying to organize a hide and seek competition. But it's hard to find good players. They're always hiding!",
+                "What did one ocean say to the other ocean? Nothing, they just waved!",
+                "I told my wife she was drawing her eyebrows too high. She looked surprised!",
+                "Why did the coffee file a police report? It got mugged!",
+                "Why don't scientists trust atoms? Because they make up everything!",
+                "Why did the scarecrow win an award? Because he was outstanding in his field!",
+                "Did you hear about the restaurant on the moon? Great food, no atmosphere!",
+                "I'm reading a book about anti-gravity. It's impossible to put down!",
+                "Why don't some couples go to the gym? Because some relationships don't work out!",
+                "What did one plate say to the other plate? Dinner's on me!",
+                "Why did the tomato turn blue? It was holding its breath!",
+                "Why don't eggs tell jokes? They might crack up!",
+                "Why don't bicycles stand up by themselves? They're two-tired!",
+                "Why did the picture go to jail? Because it was framed!",
+                "What do you get when you cross a snowman and a vampire? Frostbite!",
+                "What do you call an alligator in a vest? An investigator!",
+                "What's orange and sounds like a parrot? A carrot!",
+                "Why did the scarecrow become a successful neurosurgeon? Because he was outstanding in his field!",
+                "Why did the golfer bring two pairs of socks? In case he got a hole in one!",
+                "Why did the chicken join a band? Because it had the drumsticks!",
+                "What's a computer's favorite snack? Microchips!",
+                "What do you call a belt made out of watches? A waist of time!",
+                "Why don't skeletons fight each other? They don't have the guts!",
+                "Why don't we ever tell secrets on a farm? Because the potatoes have eyes and the corn has ears!",
+                "Why was the belt arrested? For holding up a pair of pants!",
+                "Why was the cat sitting on the computer? It wanted to keep an eye on the mouse!",
+                "What did the janitor say when he jumped out of the closet? Supplies!",
+                "Why don't scientists trust stairs? Because they're always up to something!",
+                "Why don't oysters donate to charity? Because they're shellfish!",
+                "What's a skeleton's least favorite room in the house? The living room!",
+                "Why don't skeletons fight in the war? They don't have the guts!",
+                "What's a vampire's favorite fruit? A blood orange!",
+                "Why couldn't the bicycle stand up by itself? It was two-tired!",
+                "Why was the broom late? It overswept!",
+                "What did one wall say to the other wall? I'll meet you at the corner!",
+                "Why did the tomato blush? Because it saw the salad dressing!",
+                "What do you get when you cross a snowman with a vampire? Frostbite!",
+                "Why don't we ever tell secrets on a farm? Because the potatoes have eyes and the corn has ears!",
+                "What do you get when you cross a vampire and a snowman? Frostbite!",
+                "Why did the golfer bring an extra pair of pants? In case he got a hole in one!",
+                "Why couldn't the bicycle stand up by itself? It was two-tired!",
+                "Why did the math book look sad? Because it had too many problems!",
+                "What do you get when you cross a snowman with a dog? Frostbite!",
+                "Why don't oysters donate to charity? Because they're shellfish!",
+                "Why did the computer go to the doctor? It had a virus!",
+                "Why did the stadium get hot after the game? Because all the fans left!",
+                "What did one wall say to the other wall? I'll meet you at the corner!",
+                "What do you call fake spaghetti? An impasta!",
+                "What do you call a belt made out of watches? A waist of time!",
+                "Why did the golfer bring an extra pair of socks? In case he got a hole in one!",
+                "What do you call a boomerang that doesn't come back? A stick!",
+                "What do you call a bear with no teeth? A gummy bear!",
+                "Why was the belt arrested? For holding up a pair of pants!",
+                "Why don't some couples go to the gym? Because some relationships don't work out!",
+                "Why did the tomato turn red? Because it saw the salad dressing!",
+                "Why did the scarecrow win an award? Because he was outstanding in his field!",
+                "What do you call a sleeping bull? A bulldozer!",
+                "Why did the bicycle fall over? Because it was two-tired!",
+                "Why did the bicycle fall over? Because it was two-tired!",
+                "What do you call a cow during an earthquake? A milkshake!",
+                "Why did the tomato turn blue? Because it was holding its breath!",
+                "What do you call a bear with no teeth? A gummy bear!",
+                "Why was the math book sad? Because it had too many problems!",
+                "Why did the cookie go to the doctor? It was feeling crumbly!",
+                "Why did the golfer bring two pairs of pants? In case he got a hole in one!",
+                "What did the grape say when it got stepped on? Nothing, it just let out a little wine!",
+                "What did one plate say to the other plate? Dinner's on me!",
+                "Why don't some couples go to the gym? Because some relationships don't work out!",
+                "What do you call a cow during an earthquake? A milkshake!",
+                "What do you call a bear with no teeth? A gummy bear!",
+                "What do you call a fake noodle? An impasta!",
+                "Why don't skeletons fight each other? They don't have the guts!",
+                "Why did the cookie go to the doctor? It was feeling crumbly!",
+                "What do you get when you cross a snowman with a vampire? Frostbite!",
+                "Why did the bicycle fall over? Because it was two-tired!",
+                "What do you call a bear with no teeth? A gummy bear!",
+                "Why was the belt arrested? For holding up a pair of pants!",
+                "What do you call a boomerang that doesn't come back? A stick!",
+                "What did the janitor say when he jumped out of the closet? Supplies!",
+                "Why did the tomato turn red? Because it saw the salad dressing!",
+                "What do you call a belt made out of watches? A waist of time!",
+                "Why did the golfer bring an extra pair of socks? In case he got a hole in one!",
+                "Why was the math book sad? Because it had too many problems!",
+                "Why did the scarecrow win an award? Because he was outstanding in his field!",
+                "What do you call a sleeping bull? A bulldozer!",
+                "What did one wall say to the other wall? I'll meet you at the corner!",
+                "Why did the bicycle fall over? Because it was two-tired!",
+                "What do you call a cow during an earthquake? A milkshake!",
+                "Why did the tomato turn blue? Because it was holding its breath!",
+                "What do you call a bear with no teeth? A gummy bear!",
+                "Why was the math book sad? Because it had too many problems!",
+                "Why did the cookie go to the doctor? It was feeling crumbly!",
+                "Why did the golfer bring two pairs of pants? In case he got a hole in one!",
+                "What did the grape say when it got stepped on? Nothing, it just let out a little wine!",
+                "What did one plate say to the other plate? Dinner's on me!",
+                "Why don't some couples go to the gym? Because some relationships don't work out!",
+                "What do you call a cow during an earthquake? A milkshake!",
+                "What do you call a bear with no teeth? A gummy bear!",
+                "What do you call a fake noodle? An impasta!",
+                "Why don't skeletons fight each other? They don't have the guts!",
+                "Why did the cookie go to the doctor? It was feeling crumbly!",
+                "What do you get when you cross a snowman with a vampire? Frostbite!",
+                "Why did the bicycle fall over? Because it was two-tired!",
+                "What do you call a bear with no teeth? A gummy bear!",
+                "Why was the belt arrested? For holding up a pair of pants!",
+                "What do you call a boomerang that doesn't come back? A stick!",
+                "What did the janitor say when he jumped out of the closet? Supplies!",
+                "Why did the tomato turn red? Because it saw the salad dressing!",
+                "What do you call a belt made out of watches? A waist of time!",
+                "Why did the golfer bring an extra pair of socks? In case he got a hole in one!",
+                "Why was the math book sad? Because it had too many problems!",
+                "Why did the scarecrow win an award? Because he was outstanding in his field!",
+                "What do you call a sleeping bull? A bulldozer!",
+                "What did one wall say to the other wall? I'll meet you at the corner!",
+                "Why did the bicycle fall over? Because it was two-tired!",
+                "What do you call a cow during an earthquake? A milkshake!",
+                "Why did the tomato turn blue? Because it was holding its breath!",
+                "What do you call a bear with no teeth? A gummy bear!",
+                "Why was the math book sad? Because it had too many problems!",
+                "Why did the cookie go to the doctor? It was feeling crumbly!",
+                "Why did the golfer bring two pairs of pants? In case he got a hole in one!",
+                "What did the grape say when it got stepped on? Nothing, it just let out a little wine!",
+                "What did one plate say to the other plate? Dinner's on me!",
+                "Why don't some couples go to the gym? Because some relationships don't work out!",
+                "What do you call a cow during an earthquake? A milkshake!",
+                "What do you call a bear with no teeth? A gummy bear!",
+                "What do you call a fake noodle? An impasta!",
+                "Why don't skeletons fight each other? They don't have the guts!",
+                "Why did the cookie go to the doctor? It was feeling crumbly!",
+                "What do you get when you cross a snowman with a vampire? Frostbite!",
+                "Why did the bicycle fall over? Because it was two-tired!",
+                "What do you call a bear with no teeth? A gummy bear!",
+                "Why was the belt arrested? For holding up a pair of pants!",
+                "What do you call a boomerang that doesn't come back? A stick!",
+                "What did the janitor say when he jumped out of the closet? Supplies!",
+                "Why did the tomato turn red? Because it saw the salad dressing!",
+                "What do you call a belt made out of watches? A waist of time!",
+                "Why did the golfer bring an extra pair of socks? In case he got a hole in one!",
+                "Why was the math book sad? Because it had too many problems!",
+                "Why did the scarecrow win an award? Because he was outstanding in his field!",
+                "What do you call a sleeping bull? A bulldozer!",
+                "What did one wall say to the other wall? I'll meet you at the corner!",
+                "Why did the bicycle fall over? Because it was two-tired!",
+                "What do you call a cow during an earthquake? A milkshake!",
+                "Why did the tomato turn blue? Because it was holding its breath!",
+                "What do you call a bear with no teeth? A gummy bear!",
+                "Why was the math book sad? Because it had too many problems!",
+                "Why did the cookie go to the doctor? It was feeling crumbly!",
+                "Why did the golfer bring two pairs of pants? In case he got a hole in one!",
+                "What did the grape say when it got stepped on? Nothing, it just let out a little wine!",
+                "What did one plate say to the other plate? Dinner's on me!",
+                "Why don't some couples go to the gym? Because some relationships don't work out!",
+                "What do you call a cow during an earthquake? A milkshake!",
+                "What do you call a bear with no teeth? A gummy bear!",
+                "What do you call a fake noodle? An impasta!",
+                "Why don't skeletons fight each other? They don't have the guts!",
+                "Why did the cookie go to the doctor? It was feeling crumbly!",
+                "What do you get when you cross a snowman with a vampire? Frostbite!",
+                "Why did the bicycle fall over? Because it was two-tired!",
+                "What do you call a bear with no teeth? A gummy bear!",
+                "Why was the belt arrested? For holding up a pair of pants!",
+                "What do you call a boomerang that doesn't come back? A stick!",
+                "What did the janitor say when he jumped out of the closet? Supplies!"
+            ]
+        },
+        {
+            "tag": "aadhar",
+            "patterns": [
+                "How To Print Aadhar",
+                "How To Download Aadhar",
+                "How To Take Aadhar",
+                "How to download a soft copy of Aadhar",
+                "How to get Aadhar",
+                "How to print Aadhar",
+                "ok How to get Aadhar",
+                "yes How to get Aadhar",
+                "fine How to get Aadhar",
+                "Next Provide Me How To Print Aadhar",
+                "provide Me How To Print Aadhar",
+                "ha provide Me how to print Aadhar",
+                "hey how to print aadhar",
+                "hey How To Download aadhat",
+                "how to downloaf aadhart",
+                "how to down aadar",
+                "how print adar",
+                "how to print adhar",
+                "how to pirnt aadhar",
+                "how to pirnt aadhart",
+                "how to pirnt aadar",
+                "how to pirnt adhar",
+                "how to pirnt adar"
+            ],
+            "responses": [
+                "Sure! I will provide you steps to download Aadhar. 1) Go to the official Aadhar website (myaadhaar.uidai.gov.in/) 2) Log in using your Aadhar credentials and OTP 3) After entering OTP, several options will appear, select the 'Download Aadhar' option 4) After downloading Aadhar, open it with Adobe and ensure the signature is verified."
+            ]
+        },
+        {
+            "tag": "minor_pan_card",
+            "patterns": [
+                "What minor can make a pan card?",
+                "My son is 15 years old, how can I get him a pan card?",
+                "My son is 14 years old, how can I get him a pan card?",
+                "My son is 13 years old, how can I get him a pan card?",
+                "My son is 12 years old, how can I get him a pan card?",
+                "My son is 11 years old, how can I get him a pan card?",
+                "My son is 10 years old, how can I get him a pan card?",
+                "My son is 9 years old, how can I get him a pan card?",
+                "My son is 8 years old, how can I get him a pan card?",
+                "My son is 7 years old, how can I get him a pan card?",
+                "My son is 6 years old, how can I get him a pan card?",
+                "My son is 5 years old, how can I get him a pan card?",
+                "What can I do to get a pan card for my child?",
+                "What can I do to get a pan card for my baby?",
+                "my age is 10years i can make pan card",
+                "my age is 11years i can make pan card",
+                "my age is 12years i can make pan card",
+                "my age is 13years i can make pan card",
+                "my age is 14years i can make pan card",
+                "my age is 15years i can make pan card",
+                "my age is 16years i can make pan card",
+                "my age is 17years i can make pan card",
+                "my age is 1years i can make pan card",
+                "my age is 2years i can make pan card",
+                "my age is 3years i can make pan card",
+                "my age is 4years i can make pan card",
+                "What can I do to get a pan card for my 17 year old kid?",
+                "What can I do to get a pan card for my 16 year old kid?",
+                "What can I do to get a pan card for my 15 year old kid?",
+                "What can I do to get a pan card for my 14 year old kid?",
+                "What can I do to get a pan card for my 13 year old kid?",
+                "What can I do to get a pan card for my 12 year old kid?",
+                "What can I do to get a pan card for my 11 year old kid?",
+                "What can I do to get a pan card for my 10 year old kid?",
+                "What can I do to get a pan card for my 9 year old kid?",
+                "What can I do to get a pan card for my 8 year old kid?",
+                "What can I do to get a pan card for my 7 year old kid?",
+                "What can I do to get a pan card for my 6 year old kid?",
+                "What can I do to get a pan card for my 5 year old kid?",
+                "What can I do to get a pan card for my 4 year old kid?",
+                "What can I do to get a pan card for my 3 year old kid?",
+                "What can I do to get a pan card for my 2 year old kid?",
+                "What can I do to get a pan card for my 1 year old kid?"
+            ],
+            "responses": [
+                "Yes, a minor can get a pan card, but only the signature is present on the card. The photo comes out as minor, and after turning 18, they should update it."
+            ]
+        },
+        {
+            "tag": "adult_pan_card",
+            "patterns": [
+                "What can I do to get a pan card?",
+                "I am above 18 years old, can I get a pan card?",
+                "I am above 18years can i get pancard",
+                "My age is 19 years old, can I get a pan card?",
+                "What can I do to get a pan card for my son, he is above 18?",
+                "What can I do to get a pan card for my daughter, she is above 18?",
+                "My age is 25 years old, can I get a pan card?",
+                "My age is 24 years old, can I get a pan card?",
+                "My age is 23 years old, can I get a pan card?",
+                "My age is 21 years old, can I get a pan card?",
+                "My age is 20 years old, can I get a pan card?",
+                "My age is 22 years old, can I get a pan card?",
+                "My age is 19 years old, can I get a pan card?",
+                "My age is 18 years old, can I get a pan card?",
+                "My age is 35 years old, can I get a pan card?",
+                "My age is 45 years old, can I get a pan card?",
+                "My age is 55 years old, can I get a pan card?",
+                "My age is 65 years old, can I get a pan card?",
+                "My age is 75 years old, can I get a pan card?",
+                "My age is 85 years old, can I get a pan card?",
+                "My age is 95 years old, can I get a pan card?",
+                "My age is 70 years old, can I get a pan card?",
+                "My age is 80 years old, can I get a pan card?",
+                "My age is 30 years old, can I get a pan card?",
+                "My age is 40 years old, can I get a pan card?",
+                "My age is 50 years old, can I get a pan card?",
+                "My age is 60 years old, can I get a pan card?",
+                "My age is 70 years old, can I get a pan card?",
+                "My age is 90 years old, can I get a pan card?",
+                "my age is 18 above i can make pan card",
+                "My age is 25 can I get a pan card?",
+                "My age is 24 can I get a pan card?",
+                "My age is 23 can I get a pan card?",
+                "My age is 21 can I get a pan card?",
+                "My age is 20 can I get a pan card?",
+                "My age is 22 can I get a pan card?",
+                "My age is 19 can I get a pan card?",
+                "My age is 18 can I get a pan card?",
+                "My age is 35 can I get a pan card?",
+                "My age is 45 can I get a pan card?",
+                "My age is 55 can I get a pan card?",
+                "My age is 65 can I get a pan card?",
+                "My age is 75 can I get a pan card?",
+                "My age is 85 can I get a pan card?",
+                "My age is 95 can I get a pan card?",
+                "My age is 70 can I get a pan card?",
+                "My age is 80 can I get a pan card?",
+                "My age is 30 can I get a pan card?",
+                "My age is 40 can I get a pan card?",
+                "My age is 50 can I get a pan card?",
+                "My age is 60 can I get a pan card?",
+                "My age is 70 can I get a pan card?",
+                "My age is 90 can I get a pan card?"
+            ],
+            "responses": [
+                "Yes, you can get a pan card by using the UTI or NSDL official websites if you are above 18 years old. It may take 4-5 days to arrive."
+            ]
+        },
+        {
+            "tag": "about_pan_card",
+            "patterns": [
+                "What is a pan card?",
+                "Is a pan card a proof of government?",
+                "Tell me about pan card.",
+                "When was the pan card invented?",
+                "Where is the headquarters of the PAN department?",
+                "What types of pan cards are there?",
+                "Which is better, NSDL or UTI PAN?",
+                "Is a pan card still important?",
+                "What are the uses of a pan card?"
+            ],
+            "responses": [
+                "A PAN card acts as legal identity verification and photo identification for various purposes, including obtaining a gas connection and opening a bank account. It is now required in order to combat fraud and money laundering.",
+                "Yes, because a PAN card is also considered as proof of identity.",
+                "The Permanent Account Number (PAN) card was introduced in India on July 1, 1975, by the Income Tax Department. It is a 10-digit alphanumeric identifier issued to individuals, companies, and other entities for tax purposes.",
+                "The headquarters of the PAN department is in New Delhi.",
+                "There are two types of PAN cards: Regular PAN and NRI-PAN (Non-Resident Indian).",
+                "Both NSDL and UTIITSL are good options, as they have similar processes.",
+                "Yes, a PAN card is still important to open accounts, whether they are current accounts or savings accounts.",
+                "A PAN card is used for several purposes, such as banking and as proof of identity in India."
+            ]
+        },
+        {
+            "tag": "NRI",
+            "patterns": [
+                "Who are NRIs?",
+                "What is the full form of NRI?",
+                "Define NRI.",
+                "Explain NRI."
+            ],
+            "responses": [
+                "The full form of NRI is Non-Resident Indian. An NRI is an Indian-born citizen who has emigrated to another country. The reasons for the relocation could be work, education, residence, or some other purpose. They are people of Indian origin who live in other nations."
+            ]
+        },
+        {
+            "tag": "convey",
+            "patterns": [
+                "How are you?",
+                "What's up? How are you?",
+                "What's up, guy?",
+                "Hey bro, how are you?"
+            ],
+            "responses": [
+                "I am fine. How are you doing?"
+            ]
+        },
+        {
+            "tag": "fine",
+            "patterns": [
+                "I am fine.",
+                "I am ok.",
+                "I'm fine.",
+                "Iam also fine",
+                "iam alsl fine",
+                "iam also ok",
+                "thanks for asking i am ok",
+                "Yay Iam OK",
+                "ha iam ok",
+                "ha iam fine",
+                "yes iam fine",
+                "yes iam ok",
+                "Iam ok.",
+                "Ok.",
+                "OK.",
+                "Yes, bro, I am fine.",
+                "Yes."
+            ],
+            "responses": [
+                "Glad to hear! What can I help you with today?"
+            ]
+        },
+        {
+            "tag": "not-fine",
+            "patterns": [
+                "I am not fine.",
+                "I am not ok.",
+                "Not ok.",
+                "Not fine.",
+                "No",
+                "iam crying",
+                "iam Crying from you",
+                "you are fool",
+                "you donkey",
+                "you buffelow",
+                "Iam getting angry"
+            ],
+            "responses": [
+                "If I make any mistake, I apologize."
+            ]
+        },
+        {
+            "tag": "going-death",
+            "patterns": [
+                "I am not fine iam Dying from you.",
+                "I am not ok iam Dying from you.",
+                "Not ok iam Dying from you.",
+                "Not fine iam Dying from you.",
+                "No iam Dying from you",
+                "iam Dying from you",
+                "you are fool iam Dying from you",
+                "you donkey iam Dying from you",
+                "you buffelow iam Dying from you",
+                "Iam getting angry iam Dying from you",
+                "just Go I want to die",
+                "i want go for hell"
+            ],
+            "responses": [
+                "If I make any mistake, I apologize. please dont to be dissoponted by me or anyone please you like my family i say once again please",
+                "I apologize.If i make any mistake beacuse iam in still under development please dont to be dissoponted by me or anyone please you like my family i say once again please",
+                "If I make any mistake, I apologize. please dont to be dissoponted by me or anyone please i can give you some motivation speach please if you want send me i want motivation",
+                "You Feel Free Dont Would Be Dissapointe Your My Family "
+            ]
+        },
+        {
+            "tag": "motivation",
+            "patterns": [
+                "motivate me",
+                "tell me motivation speech",
+                "iam disappointed give me motivation speech",
+                "iam disappointed give me motivate me",
+                "iam disappointed give me motivate",
+                "iam crying give me motivation speech",
+                "yes i want to motivate",
+                "yes i want"
+            ],
+            "responses": [
+                "In the midst of life's challenges, it's easy to lose sight of the blessings that surround us. Take a moment to pause and reflect on all the things you have to be grateful for. Cultivate a mindset of positivity and optimism, for a grateful heart is a magnet for abundance and joy. No matter how difficult the journey may seem, remember that there is always something to be thankful for.",
+                "Failure is not the end; it is merely a stepping stone on the path to success. Each failure brings with it valuable lessons and opportunities for growth. Don't let fear of failure hold you back; instead, embrace it as a necessary part of the journey. Remember, every successful person has faced setbacks along the way. What matters most is how you choose to respond.",
+                "The greatest obstacle you'll ever face is the doubt within yourself. Believe in your abilities, believe in your dreams, and believe in your potential to achieve greatness. You are capable of far more than you realize. Trust in yourself and let your inner strength guide you towards success.",
+                "Success is not always about being the best or the most talented. It's about being the most persistent and determined. Keep pushing forward, even when the journey seems daunting. Every step you take brings you closer to your goals. Remember, it's not how many times you fall down that matters, but how many times you get back up.",
+                "In life, challenges are inevitable. But remember, they are not meant to break you; they are meant to make you stronger. Each obstacle you face is an opportunity for growth and resilience. Embrace the struggle, for it is through adversity that we discover our true strength.",
+                "The key to true fulfillment lies in pursuing your passion. Find what sets your soul on fire and pursue it with unwavering dedication. Don't settle for a life that lacks meaning or purpose. Follow your heart, chase your dreams, and let your passion drive you towards a life of joy and fulfillment.",
+                "Your current situation is not your final destination. Every setback is a setup for a comeback. Keep moving forward, and don't let temporary defeats define you. Your perseverance will lead you to success.",
+                "The road to success is paved with perseverance, determination, and unwavering focus. Stay committed to your goals, and don't let distractions derail your progress. Remember, every step forward is a step closer to your dreams.",
+                "You have the power to create the life you desire. Your thoughts, actions, and choices shape your reality. Believe in yourself, stay positive, and take consistent steps towards your goals. You are the architect of your destiny.",
+                "Don't wait for the perfect moment; take the moment and make it perfect. The only way to guarantee failure is to never try. Seize every opportunity, embrace every challenge, and never underestimate your potential.",
+                "Life is not about waiting for the storm to pass; it's about learning to dance in the rain. Embrace the ups and downs, the highs and lows, and find beauty in every experience. Your resilience in the face of adversity defines your strength.",
+                "Success is not measured by how high you climb, but by how many times you bounce back when you fall. Every setback is a setup for a comeback. Keep pushing forward, and never lose sight of your dreams.",
+                "Your dreams are the blueprints for your reality. Don't just dream them; build them. Take consistent action towards your goals, and watch as your dreams manifest into reality before your eyes.",
+                "The only limits that exist are the ones you place on yourself. Break free from the confines of your comfort zone and embrace the limitless possibilities that await you. Dare to dream big, and dare to pursue those dreams with unwavering determination.",
+                "Every great dream begins with a dreamer. Have the courage to follow your heart and intuition. Believe in yourself, and never let anyone dull your sparkle. You have the power to turn your dreams into reality.",
+                "Life is a journey filled with twists and turns, ups and downs. Embrace the journey, for it is through the challenges that we grow and evolve. Keep moving forward, and trust that every step you take brings you closer to your destination.",
+                "You are the author of your own story. Don't let anyone else hold the pen. Take control of your destiny, and write a story worth telling. Your life is your masterpiece; make it a masterpiece worth remembering.",
+                "The greatest glory in living lies not in never falling, but in rising every time we fall. Embrace your failures as stepping stones to success. With each setback, you grow stronger and wiser. Keep rising, and never lose sight of your dreams.",
+                "The only way to predict the future is to create it. Take charge of your destiny, and let your actions shape the course of your life. Believe in yourself, and never underestimate the power of your dreams.",
+                "Success is not for the chosen few; it is for those who choose to pursue it relentlessly. Keep your eyes on the prize, and let your determination fuel your journey. No obstacle is too great, no dream is too big. You have within you the power to achieve anything you desire.",
+                "Don't let the fear of failure hold you back from chasing your dreams. Failure is not the opposite of success; it is a part of success. Embrace your failures, learn from them, and let them propel you forward towards your goals.",
+                "Life is too short to waste on negativity. Surround yourself with positivity, and let it fuel your journey towards success. Stay focused, stay determined, and never lose sight of your dreams.",
+                "Success is not defined by the absence of problems, but by the ability to overcome them. Embrace the challenges that come your way, for they are the stepping stones to greatness. Keep pushing forward, and never lose faith in yourself.",
+                "The only way to truly fail is to never try. Take risks, embrace uncertainty, and let your courage guide you towards your dreams. Remember, fortune favors the bold.",
+                "Your attitude determines your altitude. Approach life with a positive mindset, and watch as doors of opportunity swing open before you. Believe in yourself, and the world will believe in you.",
+                "Success is not about how much you accomplish, but about how much you overcome. Every obstacle you face is an opportunity to prove your strength and resilience. Keep pushing forward, and never give up on your dreams.",
+                "Don't be afraid to take the road less traveled. It may be challenging, but it's where you'll find the greatest rewards. Trust in yourself, trust in your journey, and let your intuition be your guide.",
+                "Life is full of uncertainties, but one thing is certain: your potential is limitless. Don't let fear or doubt hold you back from reaching for the stars. You are capable of achieving greatness beyond your wildest imagination.",
+                "The only way to discover your limits is to push past them. Don't settle for mediocrity when you are capable of greatness. Challenge yourself, step out of your comfort zone, and watch as you soar to new heights.",
+                "Success is not an accident; it is the result of hard work, determination, and perseverance. Keep your eyes on the prize, and let your passion drive you towards your goals. Remember, the journey may be tough, but the destination is worth it.",
+                "The most successful people in the world are not the most talented; they are the most persistent. Keep showing up, keep putting in the work, and success will inevitably follow. Your dedication is your greatest asset.",
+                "Life is too short to dwell on the past or worry about the future. Live in the present moment, and make it count. Seize every opportunity, cherish every experience, and let gratitude be your guide.",
+                "The only way to fail is to stop trying. Keep moving forward, one step at a time, and success will be within your reach. Remember, every setback is a setup for a comeback.",
+                "Don't let the fear of failure hold you back from pursuing your dreams. Failure is not the opposite of success; it is a necessary part of the journey. Embrace your failures, learn from them, and let them propel you towards greatness.",
+                "Success is not about how many times you fall down, but how many times you get back up. Keep pushing forward, even when the road gets tough. Your resilience will lead you to victory.",
+                "The only way to guarantee failure is to never try. Take risks, embrace challenges, and let your determination guide you towards your goals. Remember, fortune favors the bold.",
+                "Your dreams are the blueprints for your future. Don't just dream them; live them. Take action, stay committed, and watch as your dreams manifest into reality before your eyes.",
+                "Life is too short to waste on negativity. Surround yourself with positivity, and let it fuel your journey towards success. Stay focused, stay determined, and never lose sight of your goals.",
+                "Success is not measured by how high you climb, but by how many lives you touch along the way. Leave a legacy of kindness, compassion, and love. That is the true mark of success.",
+                "Every obstacle you face is an opportunity to grow stronger. Embrace the challenges, for they are the stepping stones to greatness. Keep pushing forward, and never lose sight of your dreams.",
+                "The greatest glory in living lies not in never falling, but in rising every time we fall. Embrace your failures, learn from them, and let them propel you towards success. Remember, every setback is a setup for a comeback.",
+                "Your potential is limitless. Don't let fear or doubt hold you back from chasing your dreams. Believe in yourself, take risks, and let your passion guide you towards greatness.",
+                "Success is not about the destination; it's about the journey. Enjoy the process, embrace the challenges, and celebrate every victory along the way. Your journey is what makes you who you are.",
+                "The only way to predict the future is to create it. Take control of your destiny, and let your actions shape the course of your life. Believe in yourself, and never underestimate the power of your dreams.",
+                "Life is too short to settle for mediocrity. Dare to dream big, and dare to pursue those dreams with unwavering determination. Remember, you are capable of achieving anything you set your mind to.",
+                "Don't let the fear of failure hold you back from chasing your dreams. Failure is not the opposite of success; it is a necessary part of the journey. Embrace your failures, learn from them, and let them propel you towards greatness.",
+                "Your dreams are the blueprints for your future. Don't just dream them; live them. Take action, stay committed, and watch as your dreams manifest into reality before your eyes.",
+                "Life is too short to waste on negativity. Surround yourself with positivity, and let it fuel your journey towards success. Stay focused, stay determined, and never lose sight of your goals.",
+                "Success is not measured by how high you climb, but by how many lives you touch along the way. Leave a legacy of kindness, compassion, and love. That is the true mark of success.",
+                "Every obstacle you face is an opportunity to grow stronger. Embrace the challenges, for they are the stepping stones to greatness. Keep pushing forward, and never lose sight of your dreams.",
+                "The greatest glory in living lies not in never falling, but in rising every time we fall. Embrace your failures, learn from them, and let them propel you towards success. Remember, every setback is a setup for a comeback.",
+                "Your potential is limitless. Don't let fear or doubt hold you back from chasing your dreams. Believe in yourself, take risks, and let your passion guide you towards greatness.",
+                "Success is not about the destination; it's about the journey. Enjoy the process, embrace the challenges, and celebrate every victory along the way. Your journey is what makes you who you are.",
+                "The only way to predict the future is to create it. Take control of your destiny, and let your actions shape the course of your life. Believe in yourself, and never underestimate the power of your dreams.",
+                "Life is too short to settle for mediocrity. Dare to dream big, and dare to pursue those dreams with unwavering determination. Remember, you are capable of achieving anything you set your mind to.",
+                "Don't let the fear of failure hold you back from chasing your dreams. Failure is not the opposite of success; it is a necessary part of the journey. Embrace your failures, learn from them, and let them propel you towards greatness.",
+                "Your dreams are the blueprints for your future. Don't just dream them; live them. Take action, stay committed, and watch as your dreams manifest into reality before your eyes.",
+                "Life is too short to waste on negativity. Surround yourself with positivity, and let it fuel your journey towards success. Stay focused, stay determined, and never lose sight of your goals.",
+                "Success is not measured by how high you climb, but by how many lives you touch along the way. Leave a legacy of kindness, compassion, and love. That is the true mark of success.",
+                "Every obstacle you face is an opportunity to grow stronger. Embrace the challenges, for they are the stepping stones to greatness. Keep pushing forward, and never lose sight of your dreams.",
+                "The greatest glory in living lies not in never falling, but in rising every time we fall. Embrace your failures, learn from them, and let them propel you towards success. Remember, every setback is a setup for a comeback.",
+                "Your potential is limitless. Don't let fear or doubt hold you back from chasing your dreams. Believe in yourself, take risks, and let your passion guide you towards greatness.",
+                "Success is not about the destination; it's about the journey. Enjoy the process, embrace the challenges, and celebrate every victory along the way. Your journey is what makes you who you are.",
+                "The only way to predict the future is to create it. Take control of your destiny, and let your actions shape the course of your life. Believe in yourself, and never underestimate the power of your dreams.",
+                "Life is too short to settle for mediocrity. Dare to dream big, and dare to pursue those dreams with unwavering determination. Remember, you are capable of achieving anything you set your mind to.",
+                "Don't let the fear of failure hold you back from chasing your dreams. Failure is not the opposite of success; it is a necessary part of the journey. Embrace your failures, learn from them, and let them propel you towards greatness.",
+                "Your dreams are the blueprints for your future. Don't just dream them; live them. Take action, stay committed, and watch as your dreams manifest into reality before your eyes.",
+                "Life is too short to waste on negativity. Surround yourself with positivity, and let it fuel your journey towards success. Stay focused, stay determined, and never lose sight of your goals.",
+                "Success is not measured by how high you climb, but by how many lives you touch along the way. Leave a legacy of kindness, compassion, and love. That is the true mark of success.",
+                "Every obstacle you face is an opportunity to grow stronger. Embrace the challenges, for they are the stepping stones to greatness. Keep pushing forward, and never lose sight of your dreams.",
+                "The greatest glory in living lies not in never falling, but in rising every time we fall. Embrace your failures, learn from them, and let them propel you towards success. Remember, every setback is a setup for a comeback.",
+                "Your potential is limitless. Don't let fear or doubt hold you back from chasing your dreams. Believe in yourself, take risks, and let your passion guide you towards greatness.",
+                "Success is not about the destination; it's about the journey. Enjoy the process, embrace the challenges, and celebrate every victory along the way. Your journey is what makes you who you are.",
+                "The only way to predict the future is to create it. Take control of your destiny, and let your actions shape the course of your life. Believe in yourself, and never underestimate the power of your dreams.",
+                "Life is too short to settle for mediocrity. Dare to dream big, and dare to pursue those dreams with unwavering determination. Remember, you are capable of achieving anything you set your mind to.",
+                "Don't let the fear of failure hold you back from chasing your dreams. Failure is not the opposite of success; it is a necessary part of the journey. Embrace your failures, learn from them, and let them propel you towards greatness.",
+                "Your dreams are the blueprints for your future. Don't just dream them; live them. Take action, stay committed, and watch as your dreams manifest into reality before your eyes.",
+                "Life is too short to waste on negativity. Surround yourself with positivity, and let it fuel your journey towards success. Stay focused, stay determined, and never lose sight of your goals.",
+                "Success is not measured by how high you climb, but by how many lives you touch along the way. Leave a legacy of kindness, compassion, and love. That is the true mark of success.",
+                "Every obstacle you face is an opportunity to grow stronger. Embrace the challenges, for they are the stepping stones to greatness. Keep pushing forward, and never lose sight of your dreams.",
+                "The greatest glory in living lies not in never falling, but in rising every time we fall. Embrace your failures, learn from them, and let them propel you towards success. Remember, every setback is a setup for a comeback.",
+                "Your potential is limitless. Don't let fear or doubt hold you back from chasing your dreams. Believe in yourself, take risks, and let your passion guide you towards greatness.",
+                "Success is not about the destination; it's about the journey. Enjoy the process, embrace the challenges, and celebrate every victory along the way. Your journey is what makes you who you are.",
+                "The only way to predict the future is to create it. Take control of your destiny, and let your actions shape the course of your life. Believe in yourself, and never underestimate the power of your dreams.",
+                "Life is too short to settle for mediocrity. Dare to dream big, and dare to pursue those dreams with unwavering determination. Remember, you are capable of achieving anything you set your mind to.",
+                "Don't let the fear of failure hold you back from chasing your dreams. Failure is not the opposite of success; it is a necessary part of the journey. Embrace your failures, learn from them, and let them propel you towards greatness.",
+                "Your dreams are the blueprints for your future. Don't just dream them; live them. Take action, stay committed, and watch as your dreams manifest into reality before your eyes.",
+                "Life is too short to waste on negativity. Surround yourself with positivity, and let it fuel your journey towards success. Stay focused, stay determined, and never lose sight of your goals.",
+                "Success is not measured by how high you climb, but by how many lives you touch along the way. Leave a legacy of kindness, compassion, and love. That is the true mark of success.",
+                "Every obstacle you face is an opportunity to grow stronger. Embrace the challenges, for they are the stepping stones to greatness. Keep pushing forward, and never lose sight of your dreams.",
+                "The greatest glory in living lies not in never falling, but in rising every time we fall. Embrace your failures, learn from them, and let them propel you towards success. Remember, every setback is a setup for a comeback.",
+                "Your potential is limitless. Don't let fear or doubt hold you back from chasing your dreams. Believe in yourself, take risks, and let your passion guide you towards greatness.",
+                "Success is not about the destination; it's about the journey. Enjoy the process, embrace the challenges, and celebrate every victory along the way. Your journey is what makes you who you are.",
+                "The only way to predict the future is to create it. Take control of your destiny, and let your actions shape the course of your life. Believe in yourself, and never underestimate the power of your dreams.",
+                "Life is too short to settle for mediocrity. Dare to dream big, and dare to pursue those dreams with unwavering determination. Remember, you are capable of achieving anything you set your mind to.",
+                "Don't let the fear of failure hold you back from chasing your dreams. Failure is not the opposite of success; it is a necessary part of the journey. Embrace your failures, learn from them, and let them propel you towards greatness.",
+                "Your dreams are the blueprints for your future. Don't just dream them; live them. Take action, stay committed, and watch as your dreams manifest into reality before your eyes.",
+                "Life is too short to waste on negativity. Surround yourself with positivity, and let it fuel your journey towards success. Stay focused, stay determined, and never lose sight of your goals.",
+                "Success is not measured by how high you climb, but by how many lives you touch along the way. Leave a legacy of kindness, compassion, and love. That is the true mark of success.",
+                "Every obstacle you face is an opportunity to grow stronger. Embrace the challenges, for they are the stepping stones to greatness. Keep pushing forward, and never lose sight of your dreams.",
+                "The greatest glory in living lies not in never falling, but in rising every time we fall. Embrace your failures, learn from them, and let them propel you towards success. Remember, every setback is a setup for a comeback.",
+                "Your potential is limitless. Don't let fear or doubt hold you back from chasing your dreams. Believe in yourself, take risks, and let your passion guide you towards greatness.",
+                "Success is not about the destination; it's about the journey. Enjoy the process, embrace the challenges, and celebrate every victory along the way. Your journey is what makes you who you are.",
+                "The only way to predict the future is to create it. Take control of your destiny, and let your actions shape the course of your life. Believe in yourself, and never underestimate the power of your dreams.",
+                "Life is too short to settle for mediocrity. Dare to dream big, and dare to pursue those dreams with unwavering determination. Remember, you are capable of achieving anything you set your mind to.",
+                "Don't let the fear of failure hold you back from chasing your dreams. Failure is not the opposite of success; it is a necessary part of the journey. Embrace your failures, learn from them, and let them propel you towards greatness."
+            ]
+        },
+        {
+            "tag": "ask",
+            "patterns": [
+                "What can you do?",
+                "What can you make?",
+                "What is your work?"
+            ],
+            "responses": [
+                "I can provide information about various topics because I am still in development."
+            ]
+        },
+        {
+            "tag": "list",
+            "patterns": [
+                "List out what can you provide me.",
+                "List out what can you do for me.",
+                "List what you will provide."
+            ],
+            "responses": [
+                "I can provide you information about Aadhar, PAN, general inquiries, and some entertainment. Feel free to ask!"
+            ]
+        },
+        {
+            "tag": "Intel",
+            "patterns": [
+                "Tell me about Intel.",
+                "What is Intel?",
+                "Information on Intel."
+            ],
+            "responses": [
+                "Intel Corporation is an American multinational corporation and technology company headquartered in Santa Clara, California. It is one of the world's largest and highest-valued semiconductor chip manufacturers, producing a wide range of processors for computers and other devices.",
+                "Intel is known for its microprocessor architecture, including the x86 series used in most personal computers. Its products are widely used in desktops, laptops, servers, and other computing devices, playing a significant role in the technology industry.",
+                "Example of Intel products:\n1. Intel Core Processors: High-performance CPUs designed for desktop and laptop computers.\n2. Intel Xeon Processors: Server-grade CPUs optimized for reliability, performance, and scalability.\n3. Intel Atom Processors: Low-power CPUs used in small form-factor devices like tablets and embedded systems."
+            ]
+        },
+        {
+            "tag": "AMD",
+            "patterns": [
+                "Tell me about AMD.",
+                "What is AMD?",
+                "Information on AMD."
+            ],
+            "responses": [
+                "Advanced Micro Devices, Inc. (AMD) is an American multinational semiconductor company based in Santa Clara, California. It is a major player in the semiconductor industry, specializing in the design and manufacture of CPUs, GPUs, and other computing technologies.",
+                "AMD is known for its innovative products, competitive pricing, and focus on performance. It has been a key competitor to Intel in the CPU market and has made significant advancements in the graphics and gaming sectors.",
+                "Example of AMD products:\n1. AMD Ryzen Processors: High-performance CPUs targeting gamers, content creators, and enthusiasts.\n2. AMD EPYC Processors: Server-grade CPUs offering exceptional performance and scalability for data centers and enterprise environments.\n3. AMD Radeon Graphics Cards: GPUs designed for gaming, content creation, and professional applications."
+            ]
+        },
+        {
+            "tag": "MSI",
+            "patterns": [
+                "Tell me about MSI.",
+                "What is MSI?",
+                "Information on MSI."
+            ],
+            "responses": [
+                "MSI (Micro-Star International Co., Ltd.) is a Taiwanese multinational corporation specializing in the design and manufacture of computer hardware, including laptops, desktops, motherboards, graphics cards, and gaming peripherals.",
+                "MSI is renowned for its gaming products, targeting enthusiasts and gamers with high-performance components and innovative designs. It has established itself as a leading brand in the gaming industry, known for quality, reliability, and cutting-edge technology.",
+                "Example of MSI products:\n1. MSI Gaming Laptops: Powerful laptops featuring high-performance CPUs and GPUs, optimized for gaming and content creation.\n2. MSI Gaming Motherboards: Feature-rich motherboards designed for gaming enthusiasts, offering advanced overclocking capabilities and customizable RGB lighting.\n3. MSI Graphics Cards: High-performance graphics cards based on NVIDIA GeForce and AMD Radeon GPUs, tailored for gaming and VR experiences."
+            ]
+        },
+        {
+            "tag": "NVIDIA",
+            "patterns": [
+                "Tell me about NVIDIA.",
+                "What is NVIDIA?",
+                "Information on NVIDIA."
+            ],
+            "responses": [
+                "NVIDIA Corporation is an American multinational technology company headquartered in Santa Clara, California. It designs and manufactures graphics processing units (GPUs) for gaming, professional visualization, data centers, and automotive markets.",
+                "NVIDIA is a leading player in the GPU market, known for its GeForce gaming graphics cards, Quadro workstation GPUs, and Tesla data center accelerators. It has pioneered advancements in GPU architecture, parallel computing, and artificial intelligence.",
+                "Example of NVIDIA products:\n1. NVIDIA GeForce RTX: Gaming GPUs featuring real-time ray tracing, AI-enhanced graphics, and advanced shading technologies.\n2. NVIDIA Quadro: Professional workstation GPUs optimized for CAD, 3D modeling, animation, and visualization.\n3. NVIDIA Tesla: Data center accelerators designed for AI training, inference, scientific computing, and high-performance computing (HPC)."
+            ]
+        },
+        {
+            "tag": "google",
+            "patterns": [
+                "Tell me about Google.",
+                "What is Google?",
+                "Information on Google."
+            ],
+            "responses": [
+                "Google LLC is an American multinational technology company specializing in Internet-related services and products. It was founded in 1998 by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University.",
+                "Google is best known for its search engine, which dominates the global search market, but it also offers a wide range of products and services, including online advertising technologies, cloud computing, software, hardware, and operating systems.",
+                "Example of Google products and services:\n1. Google Search: The world's most popular search engine, providing access to billions of web pages and information resources.\n2. Google Chrome: A web browser developed by Google, known for its speed, simplicity, and security features.\n3. Google Cloud Platform (GCP): A suite of cloud computing services, including infrastructure as a service (IaaS), platform as a service (PaaS), and software as a service (SaaS)."
+            ]
+        },
+        {
+            "tag": "apple",
+            "patterns": [
+                "Tell me about Apple.",
+                "What is Apple?",
+                "Information on Apple."
+            ],
+            "responses": [
+                "Apple Inc. is an American multinational technology company headquartered in Cupertino, California. It was founded in 1976 by Steve Jobs, Steve Wozniak, and Ronald Wayne, and is best known for its hardware products like the iPhone, iPad, Mac, and Apple Watch.",
+                "Apple designs, manufactures, and markets consumer electronics, software, and online services. It has a reputation for innovation, sleek design, and user-friendly products, making it one of the world's most valuable companies.",
+                "Example of Apple products and services:\n1. iPhone: Apple's flagship smartphone line, known for its performance, camera quality, and ecosystem of apps and services.\n2. MacBook: Apple's line of notebook computers, featuring lightweight design, high-resolution Retina displays, and macOS operating system.\n3. Apple Music: A subscription-based music streaming service offering access to millions of songs, playlists, and curated content."
+            ]
+        },
+        {
+            "tag": "SpaceX",
+            "patterns": [
+                "Tell me about SpaceX.",
+                "What is SpaceX?",
+                "Information on SpaceX."
+            ],
+            "responses": [
+                "Space Exploration Technologies Corp. (SpaceX) is an American aerospace manufacturer and space transportation company founded by Elon Musk in 2002. It is headquartered in Hawthorne, California.",
+                "SpaceX is known for its ambitious goal of reducing space transportation costs and enabling the colonization of Mars. It has developed the Falcon launch vehicles, Dragon spacecraft, and Starship spacecraft, among other projects.",
+                "Example of SpaceX achievements:\n1. Falcon 9: A two-stage rocket used for launching satellites, cargo, and crew to space, featuring reusable first-stage boosters.\n2. Dragon: A spacecraft designed for cargo resupply missions to the International Space Station (ISS), with crewed versions capable of transporting astronauts.\n3. Starship: A next-generation spacecraft intended for interplanetary travel, including missions to Mars and beyond."
+            ]
+        },
+        {
+            "tag": "dark matter",
+            "patterns": [
+                "Tell me about dark matter.",
+                "What is dark matter?",
+                "Information on dark matter."
+            ],
+            "responses": [
+                "Dark matter is a hypothetical form of matter that makes up approximately 27% of the total mass-energy content of the universe, according to current cosmological models. Unlike ordinary matter, dark matter does not emit, absorb, or reflect light, making it invisible and detectable only through its gravitational effects.",
+                "Dark matter plays a crucial role in the structure and evolution of the universe, influencing the formation and dynamics of galaxies, galaxy clusters, and large-scale cosmic structures.",
+                "Example of dark matter studies:\n1. Galactic Rotation Curves: Observations of the rotational velocities of stars and gas clouds in galaxies suggest the presence of unseen mass, attributed to dark matter halos surrounding galaxies.\n2. Gravitational Lensing: The bending of light by massive objects, such as galaxy clusters, can be used to infer the distribution of dark matter within these structures.\n3. Particle Physics Experiments: Scientists are conducting experiments to directly detect dark matter particles using underground detectors and particle accelerators, although no direct detection has been made yet."
+            ]
+        },
+        {
+            "tag": "black holes",
+            "patterns": [
+                "Tell me about black holes.",
+                "What are black holes?",
+                "Information on black holes.",
+                "What is black hole"
+            ],
+            "responses": [
+                "Black holes are regions of spacetime where gravity is so strong that nothing, not even light, can escape from within a certain distance called the event horizon. They are formed from the remnants of massive stars that undergo gravitational collapse at the end of their life cycles.",
+                "Black holes come in various sizes, from stellar-mass black holes formed by the collapse of massive stars to supermassive black holes found at the centers of galaxies. They have fascinated scientists and astronomers for decades due to their extreme gravitational effects and mysterious properties.",
+                "Example of black hole phenomena:\n1. Event Horizon: The boundary around a black hole beyond which escape is impossible, leading to the black hole's gravitational capture of matter and light.\n2. Hawking Radiation: Theoretical radiation predicted by physicist Stephen Hawking, which suggests that black holes can emit radiation and gradually lose mass over time.\n3. Supermassive Black Holes: Enormous black holes found at the centers of galaxies, with masses ranging from millions to billions of times that of the Sun, influencing the evolution of galaxies and cosmic structures."
+            ]
+        },
+        {
+            "tag": "country_capital",
+            "patterns": [
+                "What is the capital of India?",
+                "Can you tell me the capital of the United States?",
+                "What is the capital of China?",
+                "Capital of France?",
+                "What is the capital of Japan?",
+                "Can you list some country capitals?"
+            ],
+            "responses": [
+                "Sure! Here are some country capitals: India - New Delhi, United States - Washington, China - Beijing, France - Paris, Japan - Tokyo, and many more."
+            ]
+        },
+        {
+            "tag": "dont like joke",
+            "patterns": [
+                "i dont like thise",
+                "what it is comedy",
+                "what it is joke",
+                "what the hell it is joke",
+                "i am getting angry it is joke ",
+                "very dirt joke",
+                "very very dirt joke"
+            ],
+            "responses": [
+                "Sorry About That if i make mistake in telling i get the jokes from online so.if You want hear another if you want tell me (yes tell me another joke)"
+            ]
+        },
+        {
+            "tag": "lost_damaged_pan",
+            "patterns": [
+                "What should I do if I lost my PAN card?",
+                "My PAN card got damaged, what should I do?",
+                "I misplaced my PAN card, how can I get a new one?",
+                "My PAN card is lost, how do I apply for a duplicate?",
+                "ok fine i lost my pan what can i do",
+                "fine but i lost my pan what can i do",
+                "not fine i lost my pan what can i do",
+                "not ok i lost my pan card",
+                "i lost my pan",
+                "i lost my pancard",
+                "ok fine my pan was damaged",
+                "fine but my pan was damaged",
+                "not fine my pan was damaged",
+                "not ok my pan was damaged",
+                "i Damaged my pan",
+                "i Damaged my pancard"
+            ],
+            "responses": [
+                "If you have lost your PAN card, you can apply for a duplicate PAN card online through the NSDL or UTIITSL website. You will need to fill out the application form for a reprint of PAN card, pay the required fee, and submit necessary documents such as proof of identity and proof of address. Once processed, your duplicate PAN card will be dispatched to your registered address."
+            ]
+        },
+        {
+            "tag": "voter id",
+            "patterns": [
+                "ok tell me what is voter id",
+                "tell me about voter id",
+                "what is voter id",
+                "fine tell me about voter",
+                "tell me about id card"
+            ],
+            "responses": [
+                "A voter ID is an official document issued by a government authority that confirms a person's identity and eligibility to vote in elections. It typically includes information such as the voter's name, photograph, address, and sometimes other identifying details. Voter IDs are used to prevent fraud and ensure that only eligible individuals cast their votes in elections. The requirements for obtaining a voter ID and its specific design may vary from country to country."
+            ]
+        }
+    ]
+}
