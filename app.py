@@ -27,7 +27,7 @@ model = NeuralNet(input_size, hidden_size, output_size)
 model.load_state_dict(model_state)
 model.eval()
 
-bot_name = "Sam"
+bot_name = "Surya"
 
 # Define route for home page
 @app.route("/")
@@ -64,4 +64,4 @@ def chat():
 
 # Run the app
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=5000)
